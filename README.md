@@ -12,6 +12,6 @@ This repository demonstrates how to integrate with Groq AI using the `groq-sdk`.
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-repo/groq-ai-integration.git
+git clone https://github.com/adhinnnugroho/chat_bot_with_groq.git
 cd groq-ai-integration
 npm install
