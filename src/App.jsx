@@ -1,11 +1,14 @@
+import { useState } from 'react';
 import './App.css'
 import {requestToGroqAi} from './utils/groq'
 
 function App() {
+  const [data, setData] = useState([]);
+
   const handleSubmit = async () => {
     const content = document.getElementById('content').value;
     const ai = await  requestToGroqAi(content);
-    console.log({ai})
+    setData(ai);
   }
 
   return (
@@ -21,6 +24,8 @@ function App() {
             Send
           </button>
         </div>
+
+        <div className="text-white">{data}</div>
       </div>
     </>
   )
