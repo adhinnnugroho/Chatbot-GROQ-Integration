@@ -15,3 +15,6 @@ Clone the repository and install the dependencies:
 git clone https://github.com/adhinnnugroho/chat_bot_with_groq.git
 cd groq-ai-integration
 npm install
+
+
+Clone the repository and install the dependencies:
